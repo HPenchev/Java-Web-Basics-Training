@@ -22,3 +22,21 @@ body {
     padding: 0px;
     padding-top: 4px;
 }
+
+.topnav a:hover {
+    background-color: #dddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #FEAE00;
+    color: white;
+}
+
+main h1 {
+    font-size: 48px;
+}
+
+.beers {
+    color: #FEAE00;
+}
