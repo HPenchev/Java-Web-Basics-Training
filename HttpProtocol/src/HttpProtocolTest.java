@@ -10,8 +10,8 @@ import java.util.Set;
 public class HttpProtocolTest {
 
 	public static void main(String[] args) throws IOException {
-		Server server = new Server(8000);
-		server.run();
+//		Server server = new Server(8000);
+//		server.run();
 		/*
 		Scanner sc = new Scanner(System.in);
 		
@@ -31,6 +31,14 @@ public class HttpProtocolTest {
 
 		System.out.println(getResult(result));
 		sc.close();*/
+		
+		String request = "POST /url HTTP/1.1\r\n" + 
+				"Date: 17/01/2019\r\n" + 
+				"Host: localhost:8000\r\n" + 
+				"Content-Type: application/xml\r\n" + 
+				"Authorization: Basic UGVzaG8=\r\n" + 
+				"\r\n" + 
+				"name=Yum&;quantity=50&price=10\r\n";
 	}
 
 	public static String getResult(String request){
