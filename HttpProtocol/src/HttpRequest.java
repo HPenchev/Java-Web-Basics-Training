@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.HashMap;
 
 public interface HttpRequest {
@@ -18,4 +19,6 @@ public interface HttpRequest {
 	void addBodyParameter(String parameter, String value);
 	
 	boolean isResource();
+	
+	Collection<HttpCookie> getCookies();
 }

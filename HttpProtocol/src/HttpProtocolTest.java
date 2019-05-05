@@ -6,39 +6,20 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class HttpProtocolTest {
 
 	public static void main(String[] args) throws IOException {
-//		Server server = new Server(8000);
-//		server.run();
-		/*
-		Scanner sc = new Scanner(System.in);
-		
-		String result = "";
-
-		
-		while(sc.hasNext()) {
-			String line = sc.nextLine();
-			if (line.length() < 1) {
-				break;
-			}
-			result += line + System.lineSeparator();
-		}
-		
-		result += System.lineSeparator();
-		result += sc.nextLine();
-
-		System.out.println(getResult(result));
-		sc.close();*/
-		
-		String request = "POST /url HTTP/1.1\r\n" + 
-				"Date: 17/01/2019\r\n" + 
+		String request = "GET /url HTTP/1.1\r\n" + 
 				"Host: localhost:8000\r\n" + 
-				"Content-Type: application/xml\r\n" + 
-				"Authorization: Basic UGVzaG8=\r\n" + 
-				"\r\n" + 
-				"name=Yum&;quantity=50&price=10\r\n";
+				"Cookie: lang=en; theme=dark; " + 
+				"locale=bg_EN; " + 
+				"JSession=58vzsdfg";
+		
+		HttpRequest requestObj = new HttpRequestImpl(request);
+		
+		System.out.println(getCookies(request));
 	}
 
 	public static String getResult(String request){
@@ -190,5 +171,46 @@ public class HttpProtocolTest {
 	
 	private static String decodeName(String authorization) {
 		return new String(Base64.getDecoder().decode(authorization.trim().split("\\s+")[1]));	
+	}
+	
+	private static String getCookies(String request) {
+		String[] requestLines = request.split(System.lineSeparator());
+		boolean isCookie = false;
+		StringBuilder response = new StringBuilder();
+		for (int i = 0; i < requestLines.length; i++) {
+			String requestLine = requestLines[i];
+			if (!isCookie && requestLine.startsWith("Cookie:")) {
+				isCookie = true;
+			} else if (isCookie && (requestLine.contains(":") || requestLine.isEmpty())){
+				break;
+			}
+			
+			if (isCookie) {
+				appendCookies(response, requestLines[i]);
+			}
+		}
+		
+		return response.toString().trim();
+	}
+	
+	private static void appendCookies(StringBuilder response, String cookieLine) {
+		String[] cookies = cookieLine.split("\\s+");
+		
+		for (int i = 0; i < cookies.length; i++) {
+			String cookie = cookies[i];
+			if ("Cookie:".equalsIgnoreCase(cookie)) {
+				continue;
+			}
+			
+			String[] cookieParts = cookies[i].split("=");
+			response.append(cookieParts[0] + " <-> ");
+			
+			String cookieValue = cookieParts[1];
+			if (cookieValue.endsWith(";")) {
+				cookieValue = cookieValue.substring(0, cookieValue.length() - 1);
+			}
+			
+			response.append(cookieValue + System.lineSeparator());
+		}
 	}
 }
