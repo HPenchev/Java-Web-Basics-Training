@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FDMC">
+    <output-path>$PROJECT_DIR$/out/artifacts/FDMC</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FDMC" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FDMC/web/Web" />
+    </root>
+  </artifact>
+</component>
