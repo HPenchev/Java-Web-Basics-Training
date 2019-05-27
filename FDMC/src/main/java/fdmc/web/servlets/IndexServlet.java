@@ -14,8 +14,7 @@ import java.io.PrintWriter;
 @WebServlet("/")
 public class IndexServlet extends HttpServlet {
     private final static String INDEX_HTML_FILE_PAHT =
-            "D:\\Code Projects\\FDMC\\src\\main\\resources\\views\\FDMC.html";
-
+            "D:\\Code Projects\\Java-Web-Basics-Training\\FDMC\\src\\main\\resources\\FDMC.html ";
     @Inject
     private HtmlReader reader;
 

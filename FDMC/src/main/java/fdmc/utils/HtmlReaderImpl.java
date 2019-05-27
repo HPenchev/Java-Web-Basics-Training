@@ -2,7 +2,7 @@ package fdmc.utils;
 
 import java.io.*;
 
-public class HtmlReaderImpl implements HtmlReader{
+public class HtmlReaderImpl implements HtmlReader {
     @Override
     public String readHtmlFile(String htmlFilePath) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(htmlFilePath))));

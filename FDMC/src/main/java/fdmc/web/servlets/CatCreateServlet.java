@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 @WebServlet("/cats/create")
 public class CatCreateServlet extends HttpServlet {
     private static final String CREATE_CAT_HTML_PATH =
-            "D:\\Code Projects\\FDMC\\src\\main\\resources\\views\\cat-create.html";
+            "D:\\Code Projects\\Java-Web-Basics-Training\\FDMC\\src\\main\\resources\\cat-create.html";
 
     private final HtmlReader htmlReader;
 
