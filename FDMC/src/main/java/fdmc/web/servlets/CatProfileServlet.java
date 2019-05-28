@@ -19,8 +19,9 @@ public class CatProfileServlet extends HttpServlet {
     private static final String CAT_PROFILE_PATH =
             "D:\\Code Projects\\Java-Web-Basics-Training\\FDMC\\src\\main\\resources\\views\\cat-profile.html";
 
+
     private static final String NO_CAT_PATH =
-            "D:\\Code Projects\\Java-Web-Basics-Training\\FDMC\\src\\main\\resources\\no-cat.html";
+            "D:\\Code Projects\\Java-Web-Basics-Training\\FDMC\\src\\main\\resources\\views\\no-cat.html";
 
     private HtmlReader htmlReader;
 
@@ -33,8 +34,15 @@ public class CatProfileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = getUrlParameters(req.getQueryString()).get("catName");
 
-        Cat cat = ((Collection<Cat>)req.getSession().getAttribute("cats"))
-                .stream().filter(c -> c.getName().equals(name)).findFirst().orElse(null);
+        Cat cat = null;
+
+        Object cats = req.getSession().getAttribute("cats");
+        if (cats != null) {
+            cat = ((Collection<Cat>)cats)
+                    .stream().filter(c -> c.getName().equals(name)).findFirst().orElse(null);
+        }
+
+
 
         String response = null;
 
@@ -47,14 +55,13 @@ public class CatProfileServlet extends HttpServlet {
                     .replace("{{catAge}}", cat.getAge().toString());
         }
 
-        response.replace("{{catName}}", name);
+        response = response.replace("{{catName}}", name);
 
         resp.getWriter().println(response);
     }
 
     private static Map<String, String> getUrlParameters(String queryString) {
         Map<String, String> response = new HashMap<>();
-
 
         if (queryString != null) {
             String[] parameters = queryString.split("&");
