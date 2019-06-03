@@ -2,89 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f756d765-4f5e-464f-ab8b-208a1e10973a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/domain/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/models/ProductServiceModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/repository/GenericRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/all-beers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/style/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beer-Store/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/.idea/artifacts/FDMC_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/FDMC.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/domain/entities/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/utils/HtmlReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/utils/HtmlReaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatAllServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatCreateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatProfileServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/views/FDMC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/views/all-cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/views/cat-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/views/cat-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/classes/views/no-cat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/out/artifacts/FDMC_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/domain/entities/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/utils/HtmlReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/utils/HtmlReaderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/web/servlets/CatAllServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/web/servlets/CatCreateServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/web/servlets/CatProfileServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/java/fdmc/web/servlets/IndexServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/resources/views/FDMC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/resources/views/all-cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/resources/views/cat-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/resources/views/cat-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/resources/views/no-cat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/domain/entities/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/utils/HtmlReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/utils/HtmlReaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/web/servlets/CatAllServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/web/servlets/CatCreateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/web/servlets/CatProfileServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/fdmc/web/servlets/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/views/FDMC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/views/all-cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/views/cat-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/views/cat-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDMC/target/classes/views/no-cat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/hs_err_pid11612.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpCookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpProtocolTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpRequestImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpResponseImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/Server.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/util/HtmlReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/util/ModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chushka/web/servlets/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chushka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,19 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="569">
+              <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="665">
               <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,66 +63,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/models/ProductServiceModels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/domain/entities/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/GenericRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,26 +93,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/domain/entities/Type.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/util/HtmlReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/web/servlets/IndexServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/domain/entities/BaseEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chushka/util/ModelMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -234,8 +129,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="cdi.beans_1_1" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -259,8 +154,11 @@
         <option value="$PROJECT_DIR$/src/main/java/chushka/models/ProductServiceModels.java" />
         <option value="$PROJECT_DIR$/src/main/java/chushka/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/chushka/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/chushka/util/ModelMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chushka/util/HtmlReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chushka/web/servlets/IndexServlet.java" />
       </list>
     </option>
   </component>
@@ -285,8 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,22 +225,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chushka" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chushka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java EE Servlet API 4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chushka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java EE Servlet API 4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chushka" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +253,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -404,16 +288,17 @@
       <workItem from="1559324336676" duration="1798000" />
       <workItem from="1559378201352" duration="6199000" />
       <workItem from="1559538579498" duration="609000" />
+      <workItem from="1559578144069" duration="1411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8606000" />
+    <option name="totallyTimeSpent" value="10017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.3547655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.358742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,17 +374,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/GenericRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/models/ProductServiceModels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -548,42 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#40#1" expanded="true" />
-            <element signature="e#0#24#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/models/ProductServiceModels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chushka/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -594,20 +453,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/GenericRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/repository/ProductRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#0#40#1" expanded="true" />
+            <element signature="e#0#24#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="569">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/util/ModelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/util/HtmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chushka/web/servlets/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
