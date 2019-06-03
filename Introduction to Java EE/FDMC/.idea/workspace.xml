@@ -7,26 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="372a26c2-d92d-4986-bbd7-06b8d836d6b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/views/all-cats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/FDMC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/cat-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/cat-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatProfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/CatProfileServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/fdmc/web/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FDMC_war_exploded/WEB-INF/classes/no-cat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatCreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatCreateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatProfileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatProfileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/servlets/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FDMC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cat-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cat-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/CatCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/CatCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/CatProfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/CatProfileServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fdmc/web/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/no-cat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/all-beers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/beer_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/style/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beer-Store/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/hs_err_pid11612.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpProtocolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpRequestImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/HttpResponseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpProtocol/src/Server.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatCreateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="153">
               <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatProfileServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
+            <state relative-caret-position="850">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -409,16 +413,17 @@
       <workItem from="1558977810865" duration="1064000" />
       <workItem from="1558979108278" duration="1060000" />
       <workItem from="1559057818841" duration="2581000" />
+      <workItem from="1559324056379" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6016000" />
+    <option name="totallyTimeSpent" value="6169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,20 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/no-cat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/cat-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/cat-create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -562,20 +553,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatProfileServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/no-cat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatCreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatCreateServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/servlets/CatProfileServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="850">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -586,6 +584,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/cat-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
