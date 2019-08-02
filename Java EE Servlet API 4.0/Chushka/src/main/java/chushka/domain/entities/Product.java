@@ -2,6 +2,8 @@ package chushka.domain.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 
 @Entity(name = "products")
 public class Product extends BaseEntity {
@@ -11,6 +13,7 @@ public class Product extends BaseEntity {
     @Column
     private String description;
 
+    @Enumerated(EnumType.STRING)
     @Column
     private Type type;
 
