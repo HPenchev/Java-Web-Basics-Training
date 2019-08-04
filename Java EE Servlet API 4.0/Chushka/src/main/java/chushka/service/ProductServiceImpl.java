@@ -13,14 +13,14 @@ public class ProductServiceImpl implements ProductService {
     @Inject
     private ProductRepository productRepository;
 
-    @Inject
-    private ModelMapper modelMapper;
+    //@Inject
+    //private ModelMapper modelMapper;
 
     @Override
     public void saveProduct(ProductServiceModels productServiceModels) {
-        Product product = modelMapper.map(productServiceModels, Product.class);
-        product.setType(Type.valueOf(productServiceModels.getType()));
-        productRepository.save(product);
+        //Product product = modelMapper.map(productServiceModels, Product.class);
+        //product.setType(Type.valueOf(productServiceModels.getType()));
+        //productRepository.save(product);
 
     }
 }
